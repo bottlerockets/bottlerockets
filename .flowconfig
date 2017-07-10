@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/.*
+
+[options]
+module.name_mapper='\(bottlerockets-[^/]*\)' -> '<PROJECT_ROOT>/packages/\1/src/index.js'
+module.name_mapper='^types/\(.*\)$' -> '<PROJECT_ROOT>/types/\1.js'
+
+[version]
+^0.49.1

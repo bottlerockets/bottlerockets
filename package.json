@@ -1,0 +1,88 @@
+{
+  "private": true,
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "engines": {
+    "node": ">=4.12.0"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "packages/.*/lib"
+    ],
+    "collectCoverageFrom": [
+      "**/packages/*/**/*.js",
+      "scripts/**/*.js",
+      "!**/__mocks__/**",
+      "!**/__tests__/**"
+    ],
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/packages/.*/lib"
+    ],
+    "testMatch": [
+      "**/*.spec.js"
+    ]
+  },
+  "scripts": {
+    "build": "yarn build:clean --silent && node scripts/build.js",
+    "build:docs": "yarn build:clean:docs --silent && node ./scripts/buildDocs",
+    "build:clean": "rm -rf packages/*/lib",
+    "build:clean:docs": "rm -rf docs",
+    "build:watch": "yarn build --silent && node ./scripts/watch.js",
+    "commit": "git-cz",
+    "flow": "flow check",
+    "lint": "eslint scripts types flow-typed packages/*/src --ext js",
+    "lint:fix": "yarn lint -- --fix",
+    "packages:bump": "lerna updated && lerna publish --skip-npm --conventional-commits",
+    "packages:publish": "lerna updated && lerna publish --conventional-commits",
+    "postinstall": "node ./scripts/postInstall.js",
+    "coverage": "yarn test -- --coverage",
+    "test": "jest",
+    "test-ci": "yarn test && yarn flow && yarn lint",
+    "test:watch": "yarn test -- --watch"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chalk": "^2.0.1",
+    "commitizen": "^2.9.6",
+    "concurrently": "^3.5.0",
+    "cz-conventional-changelog": "^2.0.0",
+    "documentation": "^4.0.0-rc.1",
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-markdown": "^1.0.0-beta.6",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.49.1",
+    "glob": "^7.1.2",
+    "jest": "^20.0.4",
+    "js-yaml": "^3.8.4",
+    "lerna": "2.0.0-rc.5",
+    "micromatch": "^3.0.3",
+    "mkdirp": "^0.5.1",
+    "stream-array": "^1.1.2",
+    "string-length": "^1.0.1",
+    "vinyl-fs": "^2.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

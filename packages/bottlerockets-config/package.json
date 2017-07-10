@@ -1,0 +1,15 @@
+{
+  "name": "bottlerockets-config",
+  "description": "Bottlerockets configuration",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "author": "Bottlerockets (https://github.com/bottlerockets)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rc": "^1.2.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "bottlerockets-hooks",
+  "description": "Bottlerockets Hooks",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "author": "Bottlerockets (https://github.com/bottlerockets)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^2.0.0",
+    "redis-scripto": "^0.1.3"
+  }
+}

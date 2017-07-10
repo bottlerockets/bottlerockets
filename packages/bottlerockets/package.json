@@ -1,0 +1,22 @@
+{
+  "name": "bottlerockets-error",
+  "description": "Node.js high availability queue and scheduler for background job processing",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "author": "Bottlerockets (https://github.com/bottlerockets)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "bottlerockets-ds-redis": "^0.0.1"
+  },
+  "dependencies": {
+    "bottlerockets-config": "^0.1.2",
+    "bottlerockets-hooks": "^0.1.2",
+    "bottlerockets-job": "^0.1.2",
+    "bottlerockets-queue-error": "^0.1.2",
+    "bottlerockets-worker": "^0.1.2"
+  }
+}

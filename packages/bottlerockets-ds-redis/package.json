@@ -1,0 +1,17 @@
+{
+  "name": "bottlerockets-ds-redis",
+  "description": "Redis Storage for Bottlerockets Task Queue",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "author": "Bottlerockets (https://github.com/bottlerockets)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bottlerockets-job": "^0.1.2",
+    "ioredis": "^2.0.0",
+    "redis-scripto": "^0.1.3"
+  }
+}

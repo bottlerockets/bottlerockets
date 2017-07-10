@@ -1,0 +1,12 @@
+{
+  "name": "bottlerockets-queue-error",
+  "description": "Bottlerockets Queue Errors",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "author": "Bottlerockets (https://github.com/bottlerockets)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "rulers": [
+      110
+    ],
+    "detect_indentation": false,
+    "translate_tabs_to_spaces": true,
+    "tab_size": 2
+  },
+  "folders": [{
+    "path": ".",
+    "folder_exclude_patterns": [
+      "docs",
+      "packages/*/lib",
+      "node_modules"
+    ],
+    "file_exclude_patterns": [
+      "bottlerockets.sublime-workspace",
+      ".DS_Store",
+      "dump.rdb",
+      "package-lock.json",
+      "yarn.lock",
+      "CHANGELOG.md"
+    ]
+  }]
+}

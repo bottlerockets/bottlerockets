@@ -10,4 +10,4 @@ dependencies:
     - yarn build
 test:
   override:
-    - yarn test-ci
+    - yarn test:ci

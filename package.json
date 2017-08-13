@@ -45,7 +45,7 @@
     "postinstall": "node ./scripts/postInstall.js",
     "coverage": "yarn test -- --coverage",
     "test": "jest",
-    "test-ci": "yarn test && yarn flow && yarn lint",
+    "test-ci": "yarn coverage && yarn flow && yarn lint",
     "test:watch": "yarn test -- --watch"
   },
   "devDependencies": {

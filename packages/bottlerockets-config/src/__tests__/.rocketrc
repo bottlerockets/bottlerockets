@@ -1,0 +1,4 @@
+{
+  "prefix": "TESTPREFIX",
+  "connection": "test://test:0"
+}

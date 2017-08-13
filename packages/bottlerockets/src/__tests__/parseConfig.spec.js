@@ -4,7 +4,7 @@
 import Bottlerockets from '../Bottlerockets'
 
 describe('Bottlerockets', () => {
-  describe('Config', () => {
+  describe('parseConfig', () => {
     test('can use connection as string URI', () => {
       const type = 'anything'
       const host = 'foo'

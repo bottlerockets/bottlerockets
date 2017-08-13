@@ -1,0 +1,17 @@
+{
+  "name": "bottlerockets-ui",
+  "description": "Bottlerockets UI",
+  "version": "0.1.2",
+  "main": "lib/index.js",
+  "author": "Bottlerockets (https://github.com/bottlerockets)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bottlerockets/bottlerockets.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "next": "beta",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

@@ -1,13 +1,6 @@
-const createErrors = require('./createErrors')
+const createQueueErrors = require('./createQueueErrors')
 
-function QueueError () {
-  Error.call(this)
-  Error.captureStackTrace(this)
-}
-
-Object.setPrototypeOf(QueueError.prototype, Error.prototype)
-
-createErrors(QueueError, [{
+module.exports = createQueueErrors([{
   name: 'InvalidHookBefore',
   defaultMessage: 'Bottlerockets#before: first argument must be a function.',
   code: '001'
@@ -32,5 +25,3 @@ createErrors(QueueError, [{
   defaultMessage: 'Job#fromJSON: Job has invalid JSON.',
   code: '003'
 }])
-
-module.exports = QueueError

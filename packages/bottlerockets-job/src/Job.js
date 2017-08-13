@@ -14,27 +14,27 @@ class Job {
    * @optional
    * @type {string|number}
    */
-  id: JobId;
+  id: JobId
 
   /**
    * @type {string}
    */
-  name: string;
+  name: string
 
   /**
    * @type {DefaultJobConfig}
    */
-  config: DefaultJobConfig;
+  config: DefaultJobConfig
 
   /**
    * @type {boolean}
    */
-  exists: boolean;
+  exists: boolean
 
   /**
    * @type {mixed[]}
    */
-  args: Array<mixed>;
+  args: Array<mixed>
 
   /**
    * Create a Bottlerockets queue

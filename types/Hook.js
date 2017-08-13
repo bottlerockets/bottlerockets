@@ -1,9 +1,7 @@
 /**
  * @flow
  */
-
-export type HookCallback = ((args: string) => void);
-
-export interface HookInterface {
-  apply: () => void;
+export type Hook = {
+  name: string;
+  apply: ((args: string) => void);
 }

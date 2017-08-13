@@ -1,5 +1,4 @@
-![Tests](https://circleci.com/gh/bottlerockets/bottlerockets.png?circle-token=5QuCRLkmpWTdyRUr7WZcsukFa9gJ9Al68)
-
+![Tests](https://circleci.com/gh/bottlerockets/bottlerockets.png?circle-token=5QuCRLkmpWTdyRUr7WZcsukFa9gJ9Al68) [![Coverage Status](https://coveralls.io/repos/github/bottlerockets/bottlerockets/badge.svg)](https://coveralls.io/github/bottlerockets/bottlerockets)
 
 Bottlerockets
 =================

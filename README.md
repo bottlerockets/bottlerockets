@@ -17,14 +17,13 @@ This section will be moved to the bottom on the release of the prototype.
 ```
 
 - [ ] Hooks
-- [ ] Job Classes
+- [x] Job Classes
+- [x] Bottlerockets Config
 - [ ] Worker Classes
 - [ ] CLI
 - [ ] Redis Support
 - [ ] Unique Items
 - [ ] Indexed Job Search
-- [ ] TypeScript Support
-- [x] Flow Types
 
 Getting Started
 -----------------

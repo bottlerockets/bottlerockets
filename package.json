@@ -45,10 +45,9 @@
     "packages:bump": "lerna updated && lerna publish --skip-npm --conventional-commits",
     "packages:publish": "lerna updated && lerna publish --conventional-commits",
     "postinstall": "node ./scripts/postInstall.js",
-    "coverage": "yarn test -- --coverage && codecov --token=41ccfcf5-8e0e-441a-a0a2-2875627ab3d9",
-    "test": "jest",
-    "test-ci": "yarn test && yarn lint",
-    "test:watch": "yarn test -- --watch"
+    "test": "jest && yarn lint",
+    "test:ci": "yarn lint && jest --coverage && && codecov --token=41ccfcf5-8e0e-441a-a0a2-2875627ab3d9",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",

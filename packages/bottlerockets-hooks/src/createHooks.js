@@ -1,15 +1,11 @@
 /**
  * @flow
  */
-import type { Hook } from 'types/Hook'
+// import type { Hook } from 'types/Hook'
 
-const createHooks = (): void => {
+const createHooks = (): any => {
   let hooks = Object.create(null)
-  let hookCallbacks: Hook[] = []
-
-  Hooks.add = (hook: Hook) => {
-    return
-  }
+  // let hookCallbacks: Hook[] = []
 
   return hooks
 }

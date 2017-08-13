@@ -2,7 +2,6 @@
  * @flow
  */
 import type { DefaultConfig } from 'types/Config'
-import type { HookCallback } from 'types/Hook'
 import type { DSInterface } from 'types/DS'
 import type { WorkerInterface } from 'types/Worker'
 import parseConfig from './parseConfig'
@@ -21,16 +20,6 @@ class Bottlerockets {
    * @type {DSInterface}
    */
   ds: DSInterface
-
-  /**
-   * @type {HookCallback[]}
-   */
-  hooks: {
-    setup: HookCallback[],
-    before: HookCallback[],
-    after: HookCallback[],
-    teardown: HookCallback[],
-  }
 
   /**
    * @type {Map}

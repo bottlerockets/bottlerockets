@@ -27,5 +27,7 @@ export type ConnectionConfig = {
 export type DefaultConfig = {
   prefix?: string,
   verbose?: boolean,
+  config?: string,
+  configs?: string[],
   connection: ConnectionConfig | ConnectionURIConfig
 }

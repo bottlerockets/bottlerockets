@@ -1,1 +1,8 @@
-module.exports = require('rc')('bottlerockets', require('./defaults'))
+import rc from 'rc'
+
+/* istanbul ignore next */
+function tmpNoopArgvParser () {}
+
+module.exports = {
+  rc: () => rc('rocket', require('./defaults'), tmpNoopArgvParser)
+}

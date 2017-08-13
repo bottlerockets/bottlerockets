@@ -1,11 +1,10 @@
 /**
  * @flow
  */
-import Hooks from '../'
+import createHooks from '../'
 
 describe('Hooks', () => {
-  test('create instance', () => {
-    const hooks = new Hooks()
-    expect(hooks).toBeInstanceOf(Hooks)
+  test('create hooks', () => {
+    let hooks = createHooks()
   })
 })

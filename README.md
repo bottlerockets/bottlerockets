@@ -1,16 +1,20 @@
 Bottlerockets
 =================
 
+Bottlerockets is a priority task queue for Node built with high-availability and persistence.
 
-Getting Started
------------------
-
-```js
-const Bottlerockets = require('bottlerockets')
-```
+💽  &nbsp; **Easy Setup.** Bottlerockets CLI launches a queue and registers jobs in a test environment.
+<br>
+🔥  &nbsp; **Scalable.** Scales horizontally and vertically with simple commands.
+<br>
+🕹  &nbsp; **It's highly available.** Complete control of task-flow and failure recovery with sensible defaults.
 
  Roadmap
 -----------------
+
+```
+This section will be moved to the bottom on the release of the prototype.
+```
 
 - [ ] Hooks
 - [ ] Job Classes
@@ -22,6 +26,12 @@ const Bottlerockets = require('bottlerockets')
 - [ ] TypeScript Support
 - [x] Flow Types
 
+Getting Started
+-----------------
+
+```js
+const Bottlerockets = require('bottlerockets')
+```
 
 License
 -----------------

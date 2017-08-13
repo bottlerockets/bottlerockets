@@ -5,7 +5,7 @@ import url from 'url'
 import type { DefaultConfig } from 'types/Config'
 import Config from 'bottlerockets-config'
 
-type ConfigMap = { [key: string]: any };
+type ConfigMap = { [key: string]: any }
 
 module.exports = (bottlerockets: Object, config: ConfigMap = {}): DefaultConfig => {
   let newConfig: ConfigMap = Object.assign({}, Config.factory(), config)

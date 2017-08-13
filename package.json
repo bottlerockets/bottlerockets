@@ -13,8 +13,7 @@
       "packages/.*/lib"
     ],
     "collectCoverageFrom": [
-      "**/packages/*/**/*.js",
-      "scripts/**/*.js",
+      "**/packages/*/src/**/*.js",
       "!**/__mocks__/**",
       "!**/__tests__/**"
     ],
@@ -78,6 +77,9 @@
     "mkdirp": "^0.5.1",
     "stream-array": "^1.1.2",
     "string-length": "^1.0.1",
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-processor-styled-components": "^0.2.1",
     "vinyl-fs": "^2.4.4"
   },
   "config": {

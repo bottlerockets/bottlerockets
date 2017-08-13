@@ -38,14 +38,14 @@
     "build:watch": "yarn build --silent && node ./scripts/watch.js",
     "commit": "git-cz",
     "flow": "flow check",
-    "lint": "eslint scripts types flow-typed packages/*/src --ext js",
+    "lint": "eslint types packages/*/src --ext js",
     "lint:fix": "yarn lint -- --fix",
     "packages:bump": "lerna updated && lerna publish --skip-npm --conventional-commits",
     "packages:publish": "lerna updated && lerna publish --conventional-commits",
     "postinstall": "node ./scripts/postInstall.js",
     "coverage": "yarn test -- --coverage",
     "test": "jest",
-    "test-ci": "yarn test && yarn flow && yarn lint",
+    "test-ci": "yarn coverage && yarn lint",
     "test:watch": "yarn test -- --watch"
   },
   "devDependencies": {

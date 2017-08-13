@@ -3,7 +3,7 @@
  */
 import type { JobId } from 'types/Job'
 import type { DefaultJobConfig } from 'types/JobConfig'
-import type { DSInterface } from 'types/DS'
+// import type { DSInterface } from 'types/DS'
 
 /**
  * @class

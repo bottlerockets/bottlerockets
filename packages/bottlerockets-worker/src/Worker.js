@@ -8,7 +8,7 @@ import type { WorkerInterface } from 'types/Worker'
  * @implements {WorkerInterface}
  */
 class Worker implements WorkerInterface {
-  constructor() {}
+  // constructor () {}
   flush () {}
 }
 

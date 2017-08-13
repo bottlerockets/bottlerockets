@@ -1,3 +1,6 @@
+![Tests](https://circleci.com/gh/bottlerockets/bottlerockets.png?circle-token=5QuCRLkmpWTdyRUr7WZcsukFa9gJ9Al68)
+
+
 Bottlerockets
 =================
 

@@ -4,7 +4,7 @@ describe('Bottlerockets Config Loader', () => {
   test('can extend .rocketrc', () => {
     const CWD = process.cwd()
     process.chdir(__dirname)
-    const config = Config.rc()
+    const config = Config.factory()
     process.chdir(CWD)
 
     expect(config)

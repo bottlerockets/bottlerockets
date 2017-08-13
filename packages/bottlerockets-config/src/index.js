@@ -4,5 +4,5 @@ import rc from 'rc'
 function tmpNoopArgvParser () {}
 
 module.exports = {
-  rc: () => rc('rocket', require('./defaults'), tmpNoopArgvParser)
+  factory: () => rc('rocket', require('./defaults'), tmpNoopArgvParser)
 }

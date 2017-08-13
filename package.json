@@ -43,7 +43,7 @@
     "packages:bump": "lerna updated && lerna publish --skip-npm --conventional-commits",
     "packages:publish": "lerna updated && lerna publish --conventional-commits",
     "postinstall": "node ./scripts/postInstall.js",
-    "coverage": "yarn test -- --coverage",
+    "coverage": "yarn test -- --coverage && codecov --token=41ccfcf5-8e0e-441a-a0a2-2875627ab3d9",
     "test": "jest",
     "test-ci": "yarn coverage && yarn lint",
     "test:watch": "yarn test -- --watch"
@@ -55,6 +55,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.24.1",
     "chalk": "^2.0.1",
+    "codecov": "^2.3.0",
     "commitizen": "^2.9.6",
     "concurrently": "^3.5.0",
     "cz-conventional-changelog": "^2.0.0",

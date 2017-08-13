@@ -3,7 +3,7 @@ Bottlerockets
 
 Bottlerockets is a priority task queue for Node built with high-availability and persistence.
 
-💽  &nbsp; **Easy Setup.** Bottlerockets CLI launches a queue and registers jobs in a test environment.
+💽  &nbsp; **Easy Setup.** Bottlerockets runs background jobs with advanced management.
 <br>
 🔥  &nbsp; **Scalable.** Scales horizontally and vertically with simple commands.
 <br>

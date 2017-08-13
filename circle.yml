@@ -3,3 +3,10 @@ machine:
     version: 6.9.0
   services:
     - redis
+dependencies:
+  override:
+    - npm install -g yarn
+    - yarn
+test:
+  override:
+    - npm run test:ci

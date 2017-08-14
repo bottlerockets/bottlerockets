@@ -41,7 +41,7 @@ Author
 
 Sam Hunter, [@samhunta](https://github.com/samhunta) / [http://www.pegabyte.com](http://www.pegabyte.com)
 
-[travis-image]: https://img.shields.io/travis/bottlerockets/bottlerockets/master.svg?label=linux
+[travis-image]: https://img.shields.io/travis/bottlerockets/bottlerockets/master.svg
 [travis-url]: https://travis-ci.org/bottlerockets/bottlerockets
 [coveralls-image]: https://img.shields.io/coveralls/bottlerockets/bottlerockets/master.svg
 [coveralls-url]: https://coveralls.io/r/bottlerockets/bottlerockets?branch=master

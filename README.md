@@ -1,8 +1,8 @@
-![Tests](https://circleci.com/gh/bottlerockets/bottlerockets.png?circle-token=5QuCRLkmpWTdyRUr7WZcsukFa9gJ9Al68)
-[![Coverage Status](https://coveralls.io/repos/github/bottlerockets/bottlerockets/badge.svg)](https://coveralls.io/github/bottlerockets/bottlerockets)
+[![NPM Version][npm-image]][npm-url]
+[![Linux Build][travis-image]][travis-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
 
-Bottlerockets
-=================
+[![Bottlerockets Logo](https://cldup.com/WXo9ouZhmm.png)](https://bottlerockets.github.io/)
 
 Bottlerockets is a priority task queue for Node built with high-availability and persistence.
 
@@ -45,3 +45,10 @@ Author
 -----------------
 
 Sam Hunter, [@samhunta](https://github.com/samhunta) / [http://www.pegabyte.com](http://www.pegabyte.com)
+
+[travis-image]: https://img.shields.io/travis/bottlerockets/bottlerockets/master.svg?label=linux
+[travis-url]: https://travis-ci.org/bottlerockets/bottlerockets
+[coveralls-image]: https://img.shields.io/coveralls/bottlerockets/bottlerockets/master.svg
+[coveralls-url]: https://coveralls.io/r/bottlerockets/bottlerockets?branch=master
+[npm-image]: https://img.shields.io/npm/v/bottlerockets.svg
+[npm-url]: https://npmjs.org/package/bottlerockets

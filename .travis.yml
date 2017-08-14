@@ -1,0 +1,10 @@
+language: node_js
+sudo: false
+node_js:
+  - "6.2"
+before_install:
+  - npm install -g yarn
+  - yarn
+  - yarn build
+script: yarn test:ci
+after_script: "npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls"

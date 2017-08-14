@@ -12,22 +12,6 @@ Bottlerockets is a priority task queue for Node built with high-availability and
 <br>
 🕹&nbsp; **It's highly available.** Complete control of task-flow and failure recovery with sensible defaults.
 
- Roadmap
------------------
-
-```
-This section will be moved to the bottom on the release of the prototype.
-```
-
-- [ ] Hooks
-- [x] Job Classes
-- [x] Bottlerockets Config
-- [ ] Worker Classes
-- [ ] CLI
-- [ ] Redis Support
-- [ ] Unique Items
-- [ ] Indexed Job Search
-
 Getting Started
 -----------------
 
@@ -40,6 +24,17 @@ License
 
 Please see [LICENSE](https://github.com/bottlerockets/bottlerockets/blob/master/LICENSE) for licensing details.
 
+Roadmap
+-----------------
+
+- [ ] Hooks
+- [x] Job Classes
+- [x] Bottlerockets Config
+- [ ] Worker Classes
+- [ ] CLI
+- [ ] Redis Support
+- [ ] Unique Items
+- [ ] Indexed Job Search
 
 Author
 -----------------

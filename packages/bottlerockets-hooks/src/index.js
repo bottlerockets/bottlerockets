@@ -1,1 +1,3 @@
-module.exports = require('./createHooks')
+module.exports = {
+  createHooks: require('./createHooks')
+}

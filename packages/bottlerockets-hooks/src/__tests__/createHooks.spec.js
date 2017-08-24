@@ -1,7 +1,7 @@
 /**
  * @flow
  */
-import createHooks from '../'
+import { createHooks } from '../'
 
 describe('Hooks', () => {
   test('create hooks', () => {

@@ -1,4 +1,4 @@
-Bottlerockets Hook
+Bottlerockets Hooks
 =================
 
 @todo: Document this

@@ -30,6 +30,7 @@ Roadmap
 - [ ] Hooks
 - [x] Job Classes
 - [x] Bottlerockets Config
+- [ ] Deployable with AWS Lambda
 - [ ] Worker Classes
 - [ ] CLI
 - [ ] Redis Support
